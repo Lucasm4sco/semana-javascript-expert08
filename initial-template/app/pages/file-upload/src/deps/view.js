@@ -54,4 +54,16 @@ export default class View {
       this.#fileUploadWrapper.classList.add("hide");
     };
   }
+
+  downloadBlobAsFile(buffers, filename){
+     const blob = new Blob(buffers, {type: 'video/webm'});
+     const blobURL = URL.createObjectURL(blob);
+
+     const a = document.createElement('a');
+     a.setAttribute('href', blobURL);
+     a.setAttribute('download', filename);
+
+     a.click();
+     URL.revokeObjectURL(blobURL);
+  }
 }
