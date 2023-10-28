@@ -4,7 +4,7 @@ Seja bem vindo(a) à oitava Semana Javascript Expert. Este é o código inicial 
 
 Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no WhatsApp](https://l.erickwendel.com.br/jse8-grupo)
 ## Preview
-<img width=100% src="./initial-template/demo.gif">
+<img width=100% src="./demo.gif">
 
 ## Pre-reqs
 
@@ -22,11 +22,11 @@ Marque esse projeto com uma estrela 🌟 e acesse o nosso [grupo oficial no What
 ## Checklist Features
 
 - Video Uploader
-  - [ ] - Deve entender videos em formato MP4 mesmo se não estiverem fragmentados
-  - [ ] - Deve processar itens em threads isoladas com Web Workers
-  - [ ] - Deve converter fragmentos de videos em formato `144p`
-  - [ ] - Deve renderizar frames em tempo real em elemento canvas
-  - [ ] - Deve gerar arquivos WebM a partir de fragmentos
+  - [x] - Deve entender videos em formato MP4 mesmo se não estiverem fragmentados
+  - [x] - Deve processar itens em threads isoladas com Web Workers
+  - [x] - Deve converter fragmentos de videos em formato `144p`
+  - [x] - Deve renderizar frames em tempo real em elemento canvas
+  - [x] - Deve gerar arquivos WebM a partir de fragmentos
 
 ### Desafios
 - [ ] - Encodar em 360p e 720p
